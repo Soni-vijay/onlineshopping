@@ -9,6 +9,7 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<javaee.version>8.0</javaee.version>
+		<spring.version>4.3.6.RELEASE</spring.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -28,13 +29,18 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>4.3.6.RELEASE</version>
+			<version>${spring.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.shopstuff</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>
